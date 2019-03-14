@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da16e489-6f29-414f-ab9f-1d17f8b5d412" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lead/app/Classes/DBUtilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Classes/DBUtilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Classes/MessageUtilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Classes/MessageUtilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Classes/ModelUtilities.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Classes/ModelUtilities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AgencyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AgencyController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/CollegeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/CoursesCategoryController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/CoursesController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/StreamsController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/UniversityController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Models/Common/Agency/AgencyModel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/app/Models/Users/UserInfoModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/app/Models/Users/UserInfoModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/agency/agency-add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/public/assets/js/admin/agency/agency-add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/courses/category-add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/courses/category-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/courses/courses-add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/courses/courses-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/streams/streams-add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/streams/streams-view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/university/university-add.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/university/university-manage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/university/university-mapcourses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/public/assets/js/admin/university/university-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/agency/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/resources/views/admin/agency/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/college/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/college/manage.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/college/media.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/courses/courses.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/courses/coursescategory.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/courses/viewcourses.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/courses/viewcoursescategory.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/streams/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/streams/view.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/university/add.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/university/manage.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/university/mapcourses.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/admin/university/media.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/layouts/nav/admin/side_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/resources/views/layouts/nav/admin/side_nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/resources/views/layouts/nav/side_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/resources/views/layouts/nav/side_nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lead/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lead/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/public/assets/js/admin/agency/agency-manage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="233" column="35" selection-start-line="233" selection-start-column="35" selection-end-line="233" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/app/Mail/WelcomeEmails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="504" column="21" selection-start-line="504" selection-start-column="21" selection-end-line="504" selection-end-column="21" />
+              <folding>
+                <element signature="e#46#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Auth/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="329">
+              <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="42" column="104" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AgencyController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="542" column="64" lean-forward="true" selection-start-line="542" selection-start-column="64" selection-end-line="542" selection-end-column="64" />
+              <folding>
+                <element signature="e#46#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map_btn</find>
+      <find>Map user</find>
+      <find>handleAddUserFromAge</find>
+      <find>add_user_btn</find>
+      <find>handleEmailCheck</find>
+      <find>handleAdd</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../lead" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin.php" />
+        <option value="$PROJECT_DIR$/template/footer.php" />
+        <option value="$PROJECT_DIR$/publisher_list.php" />
+        <option value="$PROJECT_DIR$/admin_add.php" />
+        <option value="$PROJECT_DIR$/../lead/resources/views/admin/agency/manage.blade.php" />
+        <option value="$PROJECT_DIR$/../lead/routes/api.php" />
+        <option value="$PROJECT_DIR$/../lead/resources/views/emails/welcomeuser.blade.php" />
+        <option value="$PROJECT_DIR$/../lead/.env" />
+        <option value="$PROJECT_DIR$/template/header.php" />
+        <option value="$PROJECT_DIR$/user_register.php" />
+        <option value="$PROJECT_DIR$/user.php" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/../lead/app/Mail/WelcomeEmails.php" />
+        <option value="$PROJECT_DIR$/../lead/public/assets/js/admin/agency/agency-manage.js" />
+        <option value="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AgencyController.php" />
+        <option value="$PROJECT_DIR$/../lead/routes/web.php" />
+        <option value="$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/UserController.php" />
+        <option value="$PROJECT_DIR$/../lead/app/Http/Controllers/Auth/LoginController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="102" />
+    <option name="y" value="31" />
+    <option name="width" value="1161" />
+    <option name="height" value="641" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lead" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lead" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da16e489-6f29-414f-ab9f-1d17f8b5d412" name="Default Changelist" comment="" />
+      <created>1552115030401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552115030401</updated>
+      <workItem from="1552115041029" duration="1454000" />
+      <workItem from="1552157444057" duration="7936000" />
+      <workItem from="1552196081549" duration="5122000" />
+      <workItem from="1552313404975" duration="4352000" />
+      <workItem from="1552419511866" duration="2219000" />
+      <workItem from="1552534132497" duration="9487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30570000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27055067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" side_tool="true" weight="0.32960895" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/publisher_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/book.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/resources/views/emails/welcomeuser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/config/mail.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/app/Classes/ModelUtilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/resources/views/admin/agency/manage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="158" column="125" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_register.php" />
+    <entry file="file://$PROJECT_DIR$/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/database_functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="53" column="25" selection-start-line="48" selection-start-column="16" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/app/Mail/WelcomeEmails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/public/assets/js/admin/agency/agency-manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="233" column="35" selection-start-line="233" selection-start-column="35" selection-end-line="233" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/AgencyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="542" column="64" lean-forward="true" selection-start-line="542" selection-start-column="64" selection-end-line="542" selection-end-column="64" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" column="104" selection-start-line="42" selection-start-column="104" selection-end-line="42" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Admin/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="504" column="21" selection-start-line="504" selection-start-column="21" selection-end-line="504" selection-end-column="21" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../lead/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="71" column="28" selection-start-line="71" selection-start-column="28" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
